@@ -3,48 +3,18 @@ body{
     min-width: 0;
 }
 
-.menu-bar {
-    display: none !important;
+.toggle-panel { display: none !important; }
+
+.menu-span{
+    font-size: 14px;
 }
 
-.menu-toggle{
-    display: block !important;
-}
-
-.menu {
-    ul{
-    background: $textblack;
-    width: 100%;
-    height: auto;
-    margin-top:-5px;
-    overflow: hidden;
-        padding-bottom: 10px;
-    li{
-        width: 100%;
-    }
-    }
+.menu-logo{
     a{
-        @include transition(0.3s);
-        &.toggle-panel{
-            width: auto;
-            float: right;
-            height: 100%;
-            @include transition(0.3s);
-            i{
-                display: table-cell;
-                vertical-align: middle;
-            }
+        width:100%;
+        img{
+            width: 100%;
         }
     }
 }
 
-#menu {
-    li{
-        height: 30px;
-        span{
-            text-align: center;
-            height: 30px;
-
-        }
-    }
-}

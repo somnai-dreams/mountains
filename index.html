@@ -31,11 +31,15 @@
     <!--
     !!!!!!!MENU!!!!!!!
   -->
-
     <div class="menu-wide menu-big">
         <div style="position:absolute; width:100%; pointer-events: none; height:100%; background-image: url('./img/grain.gif'); opacity:0.04; z-index:35"></div>
         <div class="menu-container">
             <div class="menu">
+                <div class="menu-logo-mobile">
+                    <a href="/index">
+                        <img style="vertical-align:baseline" src="SVGs/logo-04.svg">
+                    </a>
+                </div>
                 <a href="#" class="toggle-panel"><i class="fa fa-bars fa-3x"></i></a>
                 <ul id="menu" class="menu-bar">
                     <li class="menu-active">
@@ -80,7 +84,43 @@
             </div>
         </div>
     </div>
-
+    <div id="mobile-menu" style="position:fixed; top:0; z-index: 999; right: 0; height:100%; width:100%; background:#303030;">
+        <div style="position:absolute; width:100%; pointer-events: none; height:100%; background-image: url('./img/grain.gif'); opacity:0.04; z-index:1000"></div>
+        <div class="menu">
+            <ul class="menu-bar">
+                <li class="menu-active">
+                    <a href="/index">
+                        <span class="menu-span">HOME</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/Services">
+                        <span class="menu-span">SERVICES</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/Work">
+                        <span class="menu-span">WORK</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/About">
+                        <span class="menu-span">ABOUT</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/Contact">
+                        <span class="menu-span">CONTACT</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/projects">
+                        <span class="menu-span">PROJECTS</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
     <!--
     !!!!!!!MOUNTAINS!!!!!!!
   -->
@@ -91,150 +131,169 @@
         <img data-stellar-ratio="0.9" class="mountain2" src="SVGs/background-14.svg">
         <img data-stellar-ratio="0.8" class="mountain3" src="SVGs/background-13.svg">
 
-        <canvas data-stellar-ratio="0.7" style="-webkit-clip-path: url('#clip-polygon'); clip-path: url('#clip-polygon'); position:absolute; bottom:0; pointer-events: none; z-index:5000; left: -9999px; right: -9999px; margin: auto;" id="canvas" width="3136" height="864"></canvas>
+        <canvas data-stellar-ratio="0.7" id="canvas" width="3136" height="864"></canvas>
         <div data-stellar-ratio="0.9" style="width: 100%;position: absolute;bottom: 0;">
             <div class="sun"></div>
         </div>
-        <div style="position:absolute; width:100%; pointer-events: none; height:100%; background-image: url('./img/grain.gif'); opacity:0.04; z-index:35"></div>
+        <div class="grain"></div>
         <div style="position:absolute; width:100%; height:100px; background-color:white; bottom:0; z-index:50"></div>
     </div>
 
-    <!--<div style="position:absolute; height:864px; width: 100%; top:0; z-index:-5">
+    <div style="background-color:white; width: 100%; height: 800px; margin:auto;">
+
+    </div>
+
+    <svg height="0" width="0">
+        <defs>
+            <clipPath clipPathUnits="objectBoundingBox" id="clip-polygon">
+                <path d="M0,0L0 0.51851851851852 0.016443594646272 0.53657407407407 0.10197578075207 0.42604166666667 0.10369662205226 0.44814814814815 0.11214149139579 0.55763888888889 0.13926067558955 0.50601851851852 0.13926067558955 0.50578703703704 0.13938814531549 0.50578703703704 0.13926067558955 0.50601851851852 0.13926067558955 0.50613425925926 0.1676545570427 0.5462962962963 0.1676545570427 0.5462962962963 0.16813256851498 0.546875 0.20771191841938 0.48854166666667 0.20777565328235 0.48831018518519 0.21217335882728 0.49594907407407 0.26239643084767 0.58078703703704 0.29604843849586 0.48368055555556 0.32412364563416 0.56631944444444 0.39582536647546 0.43530092592593 0.45439770554493 0.51076388888889 0.48820905035054 0.55439814814815 0.56437221159975 0.46203703703704 0.56437221159975 0.4619212962963 0.58753983428936 0.56261574074074 0.67785213511791 0.42719907407407 0.67785213511791 0.42719907407407 0.67785213511791 0.42719907407407 0.69773741236456 0.52430555555556 0.70395156150414 0.4837962962963 0.70395156150414 0.4837962962963 0.70395156150414 0.48368055555556 0.70815806246017 0.4900462962963 0.7480879541109 0.55104166666667 0.87253027405991 0.3599537037037 0.98164435946463 0.47986111111111 1 0.4318287037037 1 0 z" />
+            </clipPath>
+        </defs>
+    </svg>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+    </script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/ocanvas/2.8.0/ocanvas.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script>
+        $(function () {
+            $('.menu-wide').data('size', 'big');
+        });
 
 
-    <div style="position:absolute; width:100%; pointer-events: none; height:100%; background-image: url('./img/grain.gif'); opacity:0.06; z-index:35; z-index:-20"></div>
-    <div style="background-color:#282828; width: 100%; height: 100%; z-index:-30; position:absolute"></div>
-</div>-->
-</body>
+        $(window).scroll(function () {
+            var $nav = $('.menu-wide');
+            if ($(document).scrollTop() > 100) {
+                if ($nav.data('size') == 'big') {
+                    $nav.removeClass("menu-big");
+                    $nav.addClass("menu-small");
+                    $nav.data('size', 'small'); //.stop().animate({
+                    //     height:'50px',
 
 
-<svg height="0" width="0">
-    <defs>
-        <clipPath clipPathUnits="objectBoundingBox" id="clip-polygon">
-            <path d="M0,0L0 0.51851851851852 0.016443594646272 0.53657407407407 0.10197578075207 0.42604166666667 0.10369662205226 0.44814814814815 0.11214149139579 0.55763888888889 0.13926067558955 0.50601851851852 0.13926067558955 0.50578703703704 0.13938814531549 0.50578703703704 0.13926067558955 0.50601851851852 0.13926067558955 0.50613425925926 0.1676545570427 0.5462962962963 0.1676545570427 0.5462962962963 0.16813256851498 0.546875 0.20771191841938 0.48854166666667 0.20777565328235 0.48831018518519 0.21217335882728 0.49594907407407 0.26239643084767 0.58078703703704 0.29604843849586 0.48368055555556 0.32412364563416 0.56631944444444 0.39582536647546 0.43530092592593 0.45439770554493 0.51076388888889 0.48820905035054 0.55439814814815 0.56437221159975 0.46203703703704 0.56437221159975 0.4619212962963 0.58753983428936 0.56261574074074 0.67785213511791 0.42719907407407 0.67785213511791 0.42719907407407 0.67785213511791 0.42719907407407 0.69773741236456 0.52430555555556 0.70395156150414 0.4837962962963 0.70395156150414 0.4837962962963 0.70395156150414 0.48368055555556 0.70815806246017 0.4900462962963 0.7480879541109 0.55104166666667 0.87253027405991 0.3599537037037 0.98164435946463 0.47986111111111 1 0.4318287037037 1 0 z" />
-        </clipPath>
-    </defs>
-</svg>
+                    //  }, 100);
+                }
+            } else {
+                if ($nav.data('size') == 'small') {
+                    $nav.removeClass("menu-small");
+                    $nav.addClass("menu-big");
+                    $nav.data('size', 'big'); //.stop().animate({
+                    //       height:'100px',
 
-<div style="background-color:white; width: 1280px; height: 800px; margin:auto;">
-
-</div>
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/ocanvas/2.8.0/ocanvas.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.stellar.min.js"></script>
-<script>
-    $(function () {
-        $('.menu-wide').data('size', 'big');
-    });
-
-
-    $(window).scroll(function () {
-        var $nav = $('.menu-wide');
-        if ($(document).scrollTop() > 100) {
-            if ($nav.data('size') == 'big') {
-                $nav.removeClass("menu-big");
-                $nav.addClass("menu-small");
-                $nav.data('size', 'small'); //.stop().animate({
-                //     height:'50px',
-
-
-                //  }, 100);
+                    //  }, 100);
+                }
             }
-        } else {
-            if ($nav.data('size') == 'small') {
-                $nav.removeClass("menu-small");
-                $nav.addClass("menu-big");
-                $nav.data('size', 'big'); //.stop().animate({
-                //       height:'100px',
+        });
 
-                //  }, 100);
+        $(function () {
+            $.stellar({
+                // Set scrolling to be in either one or both directions
+                horizontalScrolling: false,
+
+            });
+        });
+
+        $(document).ready(function () {
+            $('#menu').data('open', 'no');
+            $('.toggle-panel').click(function (e) {
+                if ($('#menu').data('open') == 'no') {
+                    $('.toggle-panel').html("<i class=\"fa fa-times fa-3x\"></i>");
+                    $('body').css('overflow', 'hidden');
+                    $('#mobile-menu').toggleClass('mobile-menu-open');
+                    $('#menu').data('open', 'yes');
+
+                } else {
+                    $('.toggle-panel').html("<i class=\"fa fa-bars fa-3x\"></i>");
+                    $('body').css('overflow', '');
+                    $('#mobile-menu').removeClass('mobile-menu-open');
+                    $('#menu').data('open', 'no');
+                }
+                e.preventDefault();
+            });
+        });
+
+        $(window).resize(function () {
+            if ($(window).width() > 600) {
+                $('.toggle-panel').html("<i class=\"fa fa-bars fa-3x\"></i>");
+                $('body').css('overflow', '');
+                $('#mobile-menu').removeClass('mobile-menu-open');
+                $('#menu').data('open', 'no');
             }
+        });
+    </script>
+
+    <script>
+        var canvas = oCanvas.create({
+            canvas: "#canvas",
+            background: "none"
+        });
+
+        // Center planet
+        var center = canvas.display.ellipse({
+            x: canvas.width / 2,
+            y: canvas.height / 1.7,
+            radius: 0,
+            fill: "#E82D43"
+        }).add();
+
+        // Prototype objects that will be used to instantiate the others
+        var satelliteProto = canvas.display.ellipse({
+            fill: "#eee"
+        });
+        var pathProto = canvas.display.polygon({
+            stroke: "1px #999"
+        });
+
+        // Set up data
+        var satellites = [],
+            depth = 3;
+        var satelliteColors = ["white", "#5F92C0", "#c7509f"];
+        var pathColors = ["#666", "#107B99", "#5F92C0"];
+
+        // Create seven satellites and paths. Definition is further down.
+        for (var i = 5, l = 30; i < l; i++) {
+            createSatellite({
+                parent: center,
+                depth: 1,
+                distance: (i + 1) * canvas.width / 50,
+                radius: canvas.width / 500,
+                speed: 1
+            });
         }
-    });
 
-    $(function () {
-        $.stellar({
-            // Set scrolling to be in either one or both directions
-            horizontalScrolling: false,
-
+        // Set up a tick function that will move all satellites each frame
+        canvas.setLoop(function () {
+            for (var i = 0, l = satellites.length; i < l; i++) {
+                satellites[i].rotation += satellites[i].speed;
+            }
         });
-    });
-</script>
 
-<script>
-    var canvas = oCanvas.create({
-        canvas: "#canvas",
-        background: "none"
-    });
+        // Definition for a satellite and its corresponding path
+        function createSatellite(options) {
 
-    // Center planet
-    var center = canvas.display.ellipse({
-        x: canvas.width / 2,
-        y: canvas.height / 1.7,
-        radius: 0,
-        fill: "#E82D43"
-    }).add();
 
-    // Prototype objects that will be used to instantiate the others
-    var satelliteProto = canvas.display.ellipse({
-        fill: "#eee"
-    });
-    var pathProto = canvas.display.polygon({
-        stroke: "1px #999"
-    });
+            // Create a new satellite
+            var satellite = satelliteProto.clone({
+                origin: {
+                    x: 0,
+                    y: options.distance * (Math.round(Math.random()) ? 1 : -1)
+                },
+                speed: Math.random() * (2 * Math.random() - 0.5) + 0.5,
+                radius: options.radius,
+                x: options.x || 0,
+                y: options.y || 0,
+                fill: satelliteColors[options.depth - 1],
+                rotation: Math.random() * 360
+            });
+            options.parent.addChild(satellite);
+            satellites.push(satellite);
 
-    // Set up data
-    var satellites = [],
-        depth = 3;
-    var satelliteColors = ["white", "#5F92C0", "#c7509f"];
-    var pathColors = ["#666", "#107B99", "#5F92C0"];
 
-    // Create seven satellites and paths. Definition is further down.
-    for (var i = 5, l = 30; i < l; i++) {
-        createSatellite({
-            parent: center,
-            depth: 1,
-            distance: (i + 1) * canvas.width / 50,
-            radius: canvas.width / 500,
-            speed: 1
-        });
-    }
-
-    // Set up a tick function that will move all satellites each frame
-    canvas.setLoop(function () {
-        for (var i = 0, l = satellites.length; i < l; i++) {
-            satellites[i].rotation += satellites[i].speed;
         }
-    });
 
-    // Definition for a satellite and its corresponding path
-    function createSatellite(options) {
-
-
-        // Create a new satellite
-        var satellite = satelliteProto.clone({
-            origin: {
-                x: 0,
-                y: options.distance * (Math.round(Math.random()) ? 1 : -1)
-            },
-            speed: Math.random() * (2 * Math.random() - 0.5) + 0.5,
-            radius: options.radius,
-            x: options.x || 0,
-            y: options.y || 0,
-            fill: satelliteColors[options.depth - 1],
-            rotation: Math.random() * 360
-        });
-        options.parent.addChild(satellite);
-        satellites.push(satellite);
-
-
-    }
-
-    canvas.timeline.start();
-</script>
+        canvas.timeline.start();
+    </script>
 </body>
 
 </html>

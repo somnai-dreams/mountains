@@ -55,6 +55,9 @@ input {
             height: 80px;
             @include transition(0.3s);
         }
+        .toggle-panel{
+            top: 6px !important;
+        }
     }
 
     &.menu-big{
@@ -128,12 +131,12 @@ input {
         color: $greygrey;
     }
     a:hover {
-        color: $darkblue;
+        color: $red;
     }
     ul li a {
         span {
             &:hover {
-                color: $darkblue;
+                color: $red;
             }
         }
     }
@@ -174,4 +177,20 @@ input {
     width: inherit;
 }
 
+.menu-logo-mobile{
+    display: none;
+}
+
+#mobile-menu{
+    transition: -webkit-transform 500ms cubic-bezier(0.9,0.01,0.165,0.99);
+    transition: transform 500ms cubic-bezier(0.9,0.01,0.165,0.99);
+    -webkit-transform: translate3D(100%,0,0);
+    -ms-transform: translate3D(100%,0,0);
+    transform: translate3D(100%,0,0);
+    &.mobile-menu-open{
+        -webkit-transform: translate3D(0,0,0);
+    -ms-transform: translate3D(0,0,0);
+    transform: translate3D(0,0,0);
+    }
+}
 

@@ -1,13 +1,18 @@
 #mountains{
     height: 864px;
-    width: 1280px;
+    width: 100%;
     margin: auto;
     background-color:#282828;
     position: relative;
+    overflow: hidden;
     img{
         width:100%;
+        min-width: 3136px;
         position: absolute;
         bottom: 0;
+        left: -9999px;
+        right: -9999px;
+        margin: auto;
         &.mountain1{
             z-index: 40;
         }
@@ -27,3 +32,4 @@
     margin: auto;
     background-color: #E82D43;
 }
+

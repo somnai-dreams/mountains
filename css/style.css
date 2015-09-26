@@ -1,19 +1,19 @@
 /*colors */
 /*media queries */
-/* line 1, Z:/Web design/Midgraph/Project Mountains/sass/_body.scss */
+/* line 1, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_body.scss */
 .body-container, .menu-container {
   width: 100%;
   max-width: 984px;
   margin: auto; }
 
-/* line 7, Z:/Web design/Midgraph/Project Mountains/sass/_body.scss */
+/* line 7, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_body.scss */
 textarea {
   outline: none; }
 
-/* line 11, Z:/Web design/Midgraph/Project Mountains/sass/_body.scss */
+/* line 11, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_body.scss */
 input {
   outline: none; }
-  /* line 17, Z:/Web design/Midgraph/Project Mountains/sass/_body.scss */
+  /* line 17, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_body.scss */
   input[type=text],
   input[type=email],
   input[type=tel],
@@ -26,7 +26,7 @@ input {
 /*/////////////////////////////////
  *			  Menu
  */
-/* line 28, Z:/Web design/Midgraph/Project Mountains/sass/_body.scss */
+/* line 28, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_body.scss */
 .menu-wide {
   width: 100%;
   background: #282828;
@@ -39,13 +39,13 @@ input {
   -ms-transition: height 0.3s;
   -o-transition: height 0.3s;
   transition: height 0.3s; }
-  /* line 41, Z:/Web design/Midgraph/Project Mountains/sass/_body.scss */
+  /* line 41, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_body.scss */
   .menu-wide.menu-small {
     height: 50px; }
-    /* line 43, Z:/Web design/Midgraph/Project Mountains/sass/_body.scss */
+    /* line 43, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_body.scss */
     .menu-wide.menu-small .menu-container {
       height: 50px; }
-      /* line 45, Z:/Web design/Midgraph/Project Mountains/sass/_body.scss */
+      /* line 45, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_body.scss */
       .menu-wide.menu-small .menu-container .menu {
         height: 50px;
         -webkit-transition: all 0.3s;
@@ -53,7 +53,7 @@ input {
         -ms-transition: all 0.3s;
         -o-transition: all 0.3s;
         transition: all 0.3s; }
-    /* line 50, Z:/Web design/Midgraph/Project Mountains/sass/_body.scss */
+    /* line 50, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_body.scss */
     .menu-wide.menu-small span {
       height: 50px;
       -webkit-transition: all 0.3s;
@@ -61,21 +61,21 @@ input {
       -ms-transition: all 0.3s;
       -o-transition: all 0.3s;
       transition: all 0.3s; }
-    /* line 54, Z:/Web design/Midgraph/Project Mountains/sass/_body.scss */
+    /* line 54, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_body.scss */
     .menu-wide.menu-small img {
-      height: 50px;
+      height: 80px;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       -ms-transition: all 0.3s;
       -o-transition: all 0.3s;
       transition: all 0.3s; }
-  /* line 60, Z:/Web design/Midgraph/Project Mountains/sass/_body.scss */
+  /* line 60, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_body.scss */
   .menu-wide.menu-big {
     height: 100px; }
-    /* line 62, Z:/Web design/Midgraph/Project Mountains/sass/_body.scss */
+    /* line 62, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_body.scss */
     .menu-wide.menu-big .menu-container {
       height: 100px; }
-      /* line 64, Z:/Web design/Midgraph/Project Mountains/sass/_body.scss */
+      /* line 64, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_body.scss */
       .menu-wide.menu-big .menu-container .menu {
         height: 100px;
         -webkit-transition: all 0.3s;
@@ -83,7 +83,7 @@ input {
         -ms-transition: all 0.3s;
         -o-transition: all 0.3s;
         transition: all 0.3s; }
-    /* line 69, Z:/Web design/Midgraph/Project Mountains/sass/_body.scss */
+    /* line 69, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_body.scss */
     .menu-wide.menu-big span {
       height: 100px;
       -webkit-transition: all 0.3s;
@@ -91,7 +91,7 @@ input {
       -ms-transition: all 0.3s;
       -o-transition: all 0.3s;
       transition: all 0.3s; }
-    /* line 73, Z:/Web design/Midgraph/Project Mountains/sass/_body.scss */
+    /* line 73, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_body.scss */
     .menu-wide.menu-big img {
       height: 100px;
       -webkit-transition: all 0.3s;
@@ -100,11 +100,11 @@ input {
       -o-transition: all 0.3s;
       transition: all 0.3s; }
 
-/* line 80, Z:/Web design/Midgraph/Project Mountains/sass/_body.scss */
+/* line 80, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_body.scss */
 .menu-container {
   height: inherit; }
 
-/* line 85, Z:/Web design/Midgraph/Project Mountains/sass/_body.scss */
+/* line 85, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_body.scss */
 .menu {
   width: 100%;
   max-width: 984px;
@@ -116,7 +116,7 @@ input {
   -o-transition: all 0.3s;
   transition: all 0.3s; }
 
-/* line 93, Z:/Web design/Midgraph/Project Mountains/sass/_body.scss */
+/* line 93, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_body.scss */
 .menu-logo {
   width: 100%;
   height: 100%;
@@ -126,45 +126,44 @@ input {
   display: inline-block;
   clear: both;
   text-align: center; }
-  /* line 102, Z:/Web design/Midgraph/Project Mountains/sass/_body.scss */
+  /* line 102, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_body.scss */
   .menu-logo img {
     max-height: 100px;
-    padding: 5px 0px;
     margin: auto; }
 
-/* line 110, Z:/Web design/Midgraph/Project Mountains/sass/_body.scss */
+/* line 109, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_body.scss */
 .menu ul {
   display: inline-block;
   height: 100%;
   width: 100%;
   margin: 0;
   padding: 0; }
-  /* line 116, Z:/Web design/Midgraph/Project Mountains/sass/_body.scss */
+  /* line 115, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_body.scss */
   .menu ul li {
     display: block;
     position: relative;
     width: 14%;
     float: left; }
   @media (min-width: 768px) {
-    /* line 110, Z:/Web design/Midgraph/Project Mountains/sass/_body.scss */
+    /* line 109, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_body.scss */
     .menu ul {
       position: relative !important;
       right: 0 !important; } }
 
-/* line 127, Z:/Web design/Midgraph/Project Mountains/sass/_body.scss */
+/* line 126, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_body.scss */
 .menu a {
   text-decoration: none;
   color: #F2F2F2; }
 
-/* line 131, Z:/Web design/Midgraph/Project Mountains/sass/_body.scss */
+/* line 130, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_body.scss */
 .menu a:hover {
   color: #243B47; }
 
-/* line 136, Z:/Web design/Midgraph/Project Mountains/sass/_body.scss */
+/* line 135, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_body.scss */
 .menu ul li a span:hover {
   color: #243B47; }
 
-/* line 141, Z:/Web design/Midgraph/Project Mountains/sass/_body.scss */
+/* line 140, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_body.scss */
 .menu a {
   padding: 0;
   display: table;
@@ -181,7 +180,7 @@ input {
  *.menu-active span, .menu-active a{
  *	color : #ED504C !important;
  *} */
-/* line 161, Z:/Web design/Midgraph/Project Mountains/sass/_body.scss */
+/* line 160, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_body.scss */
 .menu-span {
   display: table-cell;
   vertical-align: middle;
@@ -191,35 +190,40 @@ input {
   font-size: 17px;
   color: #F2F2F2; }
 
-/* line 172, Z:/Web design/Midgraph/Project Mountains/sass/_body.scss */
+/* line 171, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_body.scss */
 .menu-span-logo {
   display: table-cell;
   vertical-align: middle;
   width: inherit; }
 
-/* line 1, Z:/Web design/Midgraph/Project Mountains/sass/_mountains.scss */
+/* line 1, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_mountains.scss */
 #mountains {
   height: 864px;
-  width: 1280px;
+  width: 100%;
   margin: auto;
   background-color: #282828;
-  position: relative; }
-  /* line 7, Z:/Web design/Midgraph/Project Mountains/sass/_mountains.scss */
+  position: relative;
+  overflow: hidden; }
+  /* line 8, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_mountains.scss */
   #mountains img {
     width: 100%;
+    min-width: 3136px;
     position: absolute;
-    bottom: 0; }
-    /* line 11, Z:/Web design/Midgraph/Project Mountains/sass/_mountains.scss */
+    bottom: 0;
+    left: -9999px;
+    right: -9999px;
+    margin: auto; }
+    /* line 16, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_mountains.scss */
     #mountains img.mountain1 {
       z-index: 40; }
-    /* line 14, Z:/Web design/Midgraph/Project Mountains/sass/_mountains.scss */
+    /* line 19, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_mountains.scss */
     #mountains img.mountain2 {
       z-index: 30; }
-    /* line 17, Z:/Web design/Midgraph/Project Mountains/sass/_mountains.scss */
+    /* line 22, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_mountains.scss */
     #mountains img.mountain3 {
       z-index: 20; }
 
-/* line 23, Z:/Web design/Midgraph/Project Mountains/sass/_mountains.scss */
+/* line 28, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_mountains.scss */
 .sun {
   width: 700px;
   height: 700px;
@@ -228,25 +232,25 @@ input {
   background-color: #E82D43; }
 
 @media (min-width: 768px) {
-  /* line 1, Z:/Web design/Midgraph/Project Mountains/sass/_desktop.scss */
+  /* line 1, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_desktop.scss */
   body {
     width: 100%; }
-  /* line 5, Z:/Web design/Midgraph/Project Mountains/sass/_desktop.scss */
+  /* line 5, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_desktop.scss */
   .toggle-panel {
     display: none !important; } }
 
 @media (max-width: 767px) {
-  /* line 1, Z:/Web design/Midgraph/Project Mountains/sass/_mobile.scss */
+  /* line 1, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_mobile.scss */
   body {
     width: 100%;
     min-width: 0; }
-  /* line 6, Z:/Web design/Midgraph/Project Mountains/sass/_mobile.scss */
+  /* line 6, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_mobile.scss */
   .menu-bar {
     display: none !important; }
-  /* line 10, Z:/Web design/Midgraph/Project Mountains/sass/_mobile.scss */
+  /* line 10, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_mobile.scss */
   .menu-toggle {
     display: block !important; }
-  /* line 15, Z:/Web design/Midgraph/Project Mountains/sass/_mobile.scss */
+  /* line 15, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_mobile.scss */
   .menu ul {
     background: #333333;
     width: 100%;
@@ -254,17 +258,17 @@ input {
     margin-top: -5px;
     overflow: hidden;
     padding-bottom: 10px; }
-    /* line 22, Z:/Web design/Midgraph/Project Mountains/sass/_mobile.scss */
+    /* line 22, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_mobile.scss */
     .menu ul li {
       width: 100%; }
-  /* line 26, Z:/Web design/Midgraph/Project Mountains/sass/_mobile.scss */
+  /* line 26, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_mobile.scss */
   .menu a {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s; }
-    /* line 28, Z:/Web design/Midgraph/Project Mountains/sass/_mobile.scss */
+    /* line 28, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_mobile.scss */
     .menu a.toggle-panel {
       width: auto;
       float: right;
@@ -274,45 +278,45 @@ input {
       -ms-transition: all 0.3s;
       -o-transition: all 0.3s;
       transition: all 0.3s; }
-      /* line 33, Z:/Web design/Midgraph/Project Mountains/sass/_mobile.scss */
+      /* line 33, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_mobile.scss */
       .menu a.toggle-panel i {
         display: table-cell;
         vertical-align: middle; }
-  /* line 42, Z:/Web design/Midgraph/Project Mountains/sass/_mobile.scss */
+  /* line 42, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_mobile.scss */
   #menu li {
     height: 30px; }
-    /* line 44, Z:/Web design/Midgraph/Project Mountains/sass/_mobile.scss */
+    /* line 44, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_mobile.scss */
     #menu li span {
       text-align: center;
       height: 30px; } }
 
 @media (max-width: 435px) {
-  /* line 1, Z:/Web design/Midgraph/Project Mountains/sass/_mobiletiny.scss */
+  /* line 1, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_mobiletiny.scss */
   .domain-text {
     width: 100%; }
-  /* line 5, Z:/Web design/Midgraph/Project Mountains/sass/_mobiletiny.scss */
+  /* line 5, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_mobiletiny.scss */
   .domain-button {
     width: 100%;
     margin-top: 5px; }
-  /* line 10, Z:/Web design/Midgraph/Project Mountains/sass/_mobiletiny.scss */
+  /* line 10, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_mobiletiny.scss */
   .domain-loading {
     right: 2%; }
-  /* line 14, Z:/Web design/Midgraph/Project Mountains/sass/_mobiletiny.scss */
+  /* line 14, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_mobiletiny.scss */
   .services-front {
     height: 440px; }
-    /* line 16, Z:/Web design/Midgraph/Project Mountains/sass/_mobiletiny.scss */
+    /* line 16, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_mobiletiny.scss */
     .services-front ul {
       padding: 0px 15px; }
-    /* line 19, Z:/Web design/Midgraph/Project Mountains/sass/_mobiletiny.scss */
+    /* line 19, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_mobiletiny.scss */
     .services-front span {
       font-size: 13px; }
-  /* line 24, Z:/Web design/Midgraph/Project Mountains/sass/_mobiletiny.scss */
+  /* line 24, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_mobiletiny.scss */
   .service-circle {
     height: 92px;
     width: 92px;
     margin-top: 37px;
     margin-bottom: 10px; }
-    /* line 29, Z:/Web design/Midgraph/Project Mountains/sass/_mobiletiny.scss */
+    /* line 29, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_mobiletiny.scss */
     .service-circle img {
       max-height: 58px; } }
 

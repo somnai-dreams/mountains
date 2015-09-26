@@ -1,0 +1,29 @@
+#mountains{
+    height: 864px;
+    width: 1280px;
+    margin: auto;
+    background-color:#E82D43;
+    position: relative;
+    img{
+        width:100%;
+        position: absolute;
+        bottom: 0;
+        &.mountain1{
+            z-index: 40;
+        }
+        &.mountain2{
+            z-index: 30;
+        }
+        &.mountain3{
+            z-index: 20;
+        }
+    }
+}
+
+.sun {
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    margin: auto;
+    background-color: white;
+}

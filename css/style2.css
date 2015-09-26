@@ -1,0 +1,410 @@
+/*colors */
+/* line 1, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+body {
+  width: 100%;
+  min-width: 984px; }
+
+/* line 6, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+.body-container, .domain-container, .menu-container {
+  width: 100%;
+  max-width: 984px;
+  margin: auto; }
+
+/* line 13, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+.menu-wide {
+  width: 100%;
+  background: #E23737;
+  height: auto; }
+
+/* line 19, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+textarea {
+  outline: none; }
+
+/* line 23, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+input {
+  outline: none; }
+  /* line 26, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+  input[type=text], input[type=email], input[type=tel], input[type=url], input[type=search] {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none; }
+
+/*/////////////////////////////////
+ *			  Menu
+ */
+/* line 37, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+.menu {
+  width: 100%;
+  max-width: 984px;
+  height: 100px;
+  display: inline-block;
+  background: #E23737; }
+
+/* line 45, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+.menu-logo {
+  width: 27%;
+  height: 100%;
+  font-family: Montserrat;
+  font-size: 37px;
+  color: #333333;
+  display: inline-block; }
+
+/* line 55, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+.menu ul {
+  display: inline-block;
+  height: 100%;
+  width: 72%;
+  margin: 0;
+  padding: 0; }
+  /* line 62, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+  .menu ul li {
+    display: block;
+    position: relative;
+    width: 20%;
+    float: left; }
+
+/* line 70, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+.menu a {
+  text-decoration: none;
+  color: #F2F2F2; }
+
+/* line 75, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+.menu a:hover {
+  color: #243B47; }
+
+/* line 81, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+.menu ul li a span:hover {
+  color: #243B47; }
+
+/* line 87, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+.menu a {
+  padding: 0 20px;
+  display: table;
+  margin: auto;
+  width: inherit;
+  height: inherit; }
+
+/*.menu-active {
+ *	color : #ED504C !important;
+ *	border-bottom: solid 3px #306D96;
+ *
+ *}
+ *
+ *.menu-active span, .menu-active a{
+ *	color : #ED504C !important;
+ *} */
+/* line 106, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+.menu-span {
+  display: table-cell;
+  vertical-align: middle;
+  width: inherit;
+  height: inherit;
+  height: 100px;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 17px;
+  color: #F2F2F2; }
+
+/* line 118, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+.menu-span-logo {
+  display: table-cell;
+  vertical-align: middle;
+  width: inherit;
+  height: inherit;
+  height: 100px; }
+
+/*/////////////////////////////////
+ *		   Front Slider
+ */
+/* line 130, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+.front-slider {
+  width: 100%;
+  height: 365px;
+  background-color: #E23737;
+  position: relative; }
+
+/* line 137, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+.break1 {
+  width: 100%;
+  height: 37px;
+  margin: 0;
+  padding: 0;
+  background-color: #243B47; }
+
+/* line 145, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+.break2 {
+  width: 100%;
+  height: 15px;
+  margin: 0;
+  padding: 0;
+  background-color: #ECF0F1; }
+
+/* line 153, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+.sliderimage1 {
+  max-width: 984px;
+  height: 100%;
+  margin: auto; }
+
+/*/////////////////////////////////
+ *		   Front Services
+ */
+/* line 163, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+.services-front {
+  height: 260px;
+  width: 100%; }
+  /* line 167, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+  .services-front ul {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0 50px; }
+    /* line 174, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+    .services-front ul li {
+      display: block;
+      position: relative;
+      width: 25%;
+      float: left;
+      padding: 0 20px;
+      display: table;
+      margin: auto; }
+  /* line 185, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+  .services-front span {
+    display: table-cell;
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+    width: inherit;
+    height: inherit;
+    height: 100px;
+    font-family: Ubuntu;
+    font-weight: 600;
+    font-size: 16px;
+    color: #4D4D4D; }
+
+/* line 200, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+.service-circle {
+  border-radius: 50px;
+  background: #F2F2F2;
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  margin-top: 55px;
+  margin-bottom: 22px; }
+  /* line 209, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+  .service-circle img {
+    margin: 17.5px 0px;
+    max-height: 65px; }
+
+/*/////////////////////////////////
+ *		  Domain Search
+ */
+/* line 219, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+.domain-text {
+  font-family: Ubuntu;
+  font-size: 23px;
+  color: #B3B3B3;
+  background: #ECF0F1;
+  padding: 0px 0px 0px 80px;
+  border: none;
+  width: 77%;
+  height: 40px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  position: relative;
+  float: left; }
+
+/* line 235, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+.domain-button {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 22px;
+  color: #F2F2F2;
+  background: #243B47;
+  border: none;
+  width: 20%;
+  float: right;
+  height: 40px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  position: relative; }
+
+/* line 251, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+.domain-search {
+  position: relative;
+  margin: auto;
+  padding: 50px 145px; }
+  /* line 252, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+  .domain-search label {
+    position: absolute;
+    top: 4px;
+    left: 15px;
+    z-index: 100;
+    font-family: Ubuntu;
+    font-size: 23px;
+    color: #243B47; }
+
+/* line 267, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+.domain1 {
+  position: relative; }
+
+/* line 271, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+#domain-result {
+  font-family: Ubuntu;
+  font-size: 14px;
+  color: #F2F2F2;
+  font-weight: 500;
+  display: none; }
+
+/* line 279, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+.domain-available {
+  background: #95CE52;
+  padding: 7px;
+  border-radius: 4px;
+  width: 77%;
+  margin-bottom: 50px; }
+
+/* line 287, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+.domain-unavailable {
+  background: #333333;
+  padding: 7px;
+  border-radius: 4px;
+  width: 77%;
+  margin-bottom: 50px; }
+
+/* line 295, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+.domain-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+/*/////////////////////////////////
+ *		   Front Tiers
+ */
+/* line 308, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+.tier-container {
+  width: 100%; }
+  /* line 313, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+  .tier-container .body-container, .tier-container .domain-container {
+    margin-top: -101px; }
+
+/* line 318, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+.tier-wide {
+  width: 100%;
+  height: 51px;
+  background: #243B47; }
+
+/* line 325, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+.tier-title {
+  background: #243B47;
+  width: 100%;
+  height: 51px;
+  font-family: Ubuntu;
+  font-size: 28px;
+  color: #F2F2F2;
+  font-weight: 500;
+  text-align: center;
+  margin: auto;
+  padding-top: 4px;
+  position: relative; }
+  /* line 338, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+  .tier-title.middle {
+    background-color: #E23737; }
+
+/* line 344, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+.front-tiers li {
+  list-style: none;
+  display: block;
+  float: left;
+  width: 33%;
+  margin-bottom: 50px; }
+
+/* line 352, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+.front-tiers ul {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  margin-top: 50px;
+  padding: 0 18px; }
+
+/* line 362, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+.tier-info {
+  height: auto;
+  width: 100%;
+  position: relative;
+  margin-top: -20px;
+  z-index: -1;
+  padding-top: 15px; }
+  /* line 370, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+  .tier-info p {
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 16px;
+    line-height: 34.15px;
+    color: #333333;
+    font-weight: 300; }
+  /* line 379, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+  .tier-info h1 {
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 34px;
+    color: #2C3E50; }
+  /* line 386, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+  .tier-info h2 {
+    font-family: Ubuntu;
+    font-size: 15px;
+    color: #CCCCCC;
+    text-align: center;
+    margin-top: -7px; }
+  /* line 394, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+  .tier-info.middle {
+    border-left: solid 3px #ECF0F1;
+    border-right: solid 3px #ECF0F1; }
+
+/* line 404, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+.footer-menu, .footer-services {
+  Border-left: solid 2px #243B47;
+  list-style: none;
+  margin: 25px 25px;
+  padding: 0;
+  padding-left: 10px;
+  display: inline-block;
+  float: left; }
+
+/* line 414, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+.footer-services {
+  border-left: solid 2px #E23737; }
+
+/* line 420, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+footer {
+  height: 167px; }
+
+/* line 424, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+.footer-logo a {
+  line-height: 31px;
+  font-family: Montserrat;
+  font-size: 46px;
+  color: #243B47;
+  display: inline-block;
+  text-decoration: none; }
+
+/* line 433, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+.footer-menu a, .footer-services a {
+  font-family: Ubuntu;
+  font-weight: 300;
+  font-size: 14px;
+  color: #333333; }
+
+/* line 440, Z:/123Go/123go/123Go v2/123go sass/sass/_body.scss */
+.footer-info {
+  float: right;
+  font-family: Ubuntu;
+  font-size: 13px;
+  color: #999999;
+  margin: 25px; }
+
+/*# sourceMappingURL=style.css.map */

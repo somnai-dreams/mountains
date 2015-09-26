@@ -1,0 +1,388 @@
+body
+  width: 100%
+  min-width: 984px
+
+.body-container, .menu-container
+  width:100%
+  max-width: 984px
+  margin: auto
+
+.menu-wide
+  width: 100%
+  background: $red
+  height: auto
+
+textarea
+  outline: none
+
+input
+  outline: none
+
+  &[type=text], &[type=email], &[type=tel], &[type=url], &[type=search]
+    appearance: none
+    -moz-appearance: none
+    -webkit-appearance: none
+
+/*/////////////////////////////////
+ *			  Menu
+ *////////////////////////////////
+
+.menu
+  width: 100%
+  max-width: 984px
+  height: 100px
+  display: inline-block
+  background: $red
+
+.menu-logo
+  width: 27%
+  height: 100%
+  font-family: Montserrat
+  font-size: 37px
+  color: $textblack
+  display: inline-block
+
+.menu
+  ul
+    display: inline-block
+    height: 100%
+    width: 72%
+    margin: 0
+    padding: 0
+
+    li
+      display: block
+      position: relative
+      width: 20%
+      float: left
+
+  a
+    text-decoration: none
+    color: $greygrey
+    
+  a:hover
+    color: $darkblue
+
+
+  ul li a
+    
+
+    span
+      &:hover
+        color: $darkblue
+      
+
+  a
+    padding: 0 20px
+    display: table
+    margin: auto
+    width: inherit
+    height: inherit
+
+/*.menu-active {
+ *	color : #ED504C !important;
+ *	border-bottom: solid 3px #306D96;
+ *
+ *}
+ *
+ *.menu-active span, .menu-active a{
+ *	color : #ED504C !important;
+ *}
+
+.menu-span
+  display: table-cell
+  vertical-align: middle
+  width: inherit
+  height: inherit
+  height: 100px
+  font-family: Montserrat
+  font-weight: bold
+  font-size: 17px
+  color: $greygrey
+
+.menu-span-logo
+  display: table-cell
+  vertical-align: middle
+  width: inherit
+  height: inherit
+  height: 100px
+
+/*/////////////////////////////////
+ *		   Front Slider
+ *////////////////////////////////
+
+.front-slider
+  width: 100%
+  height: 365px
+  background-color: $red
+  position: relative
+
+.break1
+  width: 100%
+  height: 37px
+  margin: 0
+  padding: 0
+  background-color: $darkblue
+
+.break2
+  width: 100%
+  height: 15px
+  margin: 0
+  padding: 0
+  background-color: $bluegrey
+
+.sliderimage1
+  max-width: 984px
+  height: 100%
+  margin: auto
+
+/*/////////////////////////////////
+ *		   Front Services
+ *////////////////////////////////
+
+.services-front
+  height: 260px
+  width: 100%
+
+  ul
+    display: inline-block
+    height: 100%
+    width: 100%
+    margin: 0
+    padding: 0 50px
+
+    li
+      display: block
+      position: relative
+      width: 25%
+      float: left
+      padding: 0 20px
+      display: table
+      margin: auto
+
+  span
+    display: table-cell
+    text-align: center
+    margin: auto
+    vertical-align: middle
+    width: inherit
+    height: inherit
+    height: 100px
+    font-family: Ubuntu
+    font-weight: 600
+    font-size: 16px
+    color: #4D4D4D
+
+.service-circle
+  border-radius: 50px
+  background: $greygrey
+  height: 100px
+  width: 100px
+  margin: auto
+  margin-top: 55px
+  margin-bottom: 22px
+
+  img
+    margin: 17.5px 0px
+    max-height: 65px
+
+/*/////////////////////////////////
+ *		  Domain Search
+ *////////////////////////////////
+
+.domain-text
+  font-family: Ubuntu
+  font-size: 23px
+  color: #B3B3B3
+  background: $bluegrey
+  padding: 0px 0px 0px 80px
+  border: none
+  width: 77%
+  height: 40px
+  border-radius: 4px
+  -moz-border-radius: 4px
+  -webkit-border-radius: 4px
+  position: relative
+  float: left
+
+.domain-button
+  font-family: Montserrat
+  font-weight: bold
+  font-size: 22px
+  color: $greygrey
+  background: $darkblue
+  border: none
+  width: 20%
+  float: right
+  height: 40px
+  border-radius: 4px
+  -moz-border-radius: 4px
+  -webkit-border-radius: 4px
+  position: relative
+
+.domain-search
+  label
+    position: absolute
+    top: 4px
+    left: 15px
+    z-index: 100
+    font-family: Ubuntu
+    font-size: 23px
+    color: $darkblue
+
+  position: relative
+  margin: auto
+  padding: 50px 145px
+
+.domain1
+  position: relative
+
+#domain-result
+  font-family: Ubuntu
+  font-size: 14px
+  color: $greygrey
+  font-weight: 500
+  display: none
+
+.domain-available
+  background: #95CE52
+  padding: 7px
+  border-radius: 4px
+  width: 77%
+  margin-bottom: 50px
+
+.domain-unavailable
+  background: $textblack
+  padding: 7px
+  border-radius: 4px
+  width: 77%
+  margin-bottom: 50px
+
+.domain-container
+  @extend .body-container
+  position: absolute
+  bottom: 0
+  left: 0
+  right: 0
+    
+
+/*/////////////////////////////////
+ *		   Front Tiers
+ *////////////////////////////////
+
+.tier-container
+  width: 100%
+  position:relative
+  .body-container
+    margin-top:-101px
+
+.tier-wide
+  width:100%
+  height: 51px
+  background: $darkblue
+
+.tier-title
+  background: $darkblue
+  width: 100%
+  height: 51px
+  font-family: Ubuntu
+  font-size: 28px
+  color: $greygrey
+  font-weight: 500
+  text-align: center
+  margin: auto
+  padding-top: 4px
+  position: relative
+  &.middle
+    background-color: $red
+
+.front-tiers
+  li
+    list-style: none
+    display: block
+    float: left
+    width: 33%
+    margin-bottom: 50px
+
+  ul
+    display: inline-block
+    height: 100%
+    width: 100%
+    margin: 0
+    margin-top: 50px
+    padding: 0 18px
+
+.tier-info
+  height: auto
+  width: 100%
+  position: relative
+  margin-top: -20px
+  z-index: -1
+  padding-top: 15px
+
+  p
+    text-align: center
+    font-family: Ubuntu
+    font-size: 16px
+    line-height: 34.15px
+    color: $textblack
+    font-weight: 300
+
+  h1
+    text-align: center
+    font-family: Ubuntu
+    font-size: 34px
+    color: #2C3E50
+
+  h2
+    font-family: Ubuntu
+    font-size: 15px
+    color: $textlightgrey
+    text-align: center
+    margin-top: -7px
+  &.middle
+    border-left: solid 3px $bluegrey
+    border-right: solid 3px $bluegrey
+
+        
+
+/////////////////////////////////
+//		     Footer
+////////////////////////////////
+
+.footer-menu
+  Border-left: solid 2px $darkblue
+  list-style: none
+  margin: 25px 25px
+  padding: 0
+  padding-left: 10px
+  display: inline-block
+  float: left
+
+.footer-services
+  @extend .footer-menu
+  border-left: solid 2px $red
+
+footer
+  height: 167px
+
+.footer-logo a
+  line-height: 31px
+  font-family: Montserrat
+  font-size: 46px
+  color: $darkblue
+  display: inline-block
+  text-decoration: none
+
+.footer-menu a
+  font-family: Ubuntu
+  font-weight: 300
+  font-size: 14px
+  color: $textblack
+
+.footer-info
+  float: right
+  font-family: Ubuntu
+  font-size: 13px
+  color: #999999
+  margin: 25px

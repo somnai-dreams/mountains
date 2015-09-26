@@ -388,7 +388,10 @@ input {
       font-size: 25px; }
   /* line 93, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_mobiletiny.scss */
   .menu-logo-mobile {
-    display: block; } }
+    display: block; }
+  /* line 97, Z:/Web design/Midgraph/Project Mountains - Wide/sass/_mobiletiny.scss */
+  .grain {
+    display: none; } }
 
 /* hello */
 
